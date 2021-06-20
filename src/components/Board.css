@@ -7,6 +7,14 @@
     height: 700px;
 }
 
-.board .lightsquare {
+.lightsquare{
     background-color: #f0d9b5;
+}
+
+.lightsquare, .darksquare {
+
+}
+
+.piece {
+
 }
