@@ -1,15 +1,21 @@
 .board {
     display: grid;
     grid-template-columns: repeat(8, 87.5px);
+    grid-template-rows: repeat(8, 87.5px);
     margin: 20px auto;
-    background-color:#b58863;
+    background-color:#724b2b;
     width: 700px;
     height: 700px;
 }
 
-.lightsquare{
-    background-color: #f0d9b5;
+.chess-piece:hover {
+    cursor: grab !important;
 }
+
+.chess-piece:active {
+    cursor: grabbing !important;
+}
+
 
 .lightsquare, .darksquare {
     background-position: center;

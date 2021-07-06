@@ -1,5 +1,6 @@
 import React from 'react'
 import Square from './Square';
+import Fxn from './BoardFunctions.js';
 import './Board.css';
 
 const Board = () => {
@@ -48,7 +49,7 @@ const Board = () => {
         }
     }
     return (
-        <div className='board'>
+        <div className='board' onMouseDown={Fxn.check}>
             {board}
         </div>
     )
